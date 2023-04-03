@@ -1,0 +1,111 @@
+html{
+    text-align: center;
+    font-family: sans-serif
+}
+.base{
+    border-style: solid;
+    border-color: black;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #DFC96B;
+    display: inline-block;
+    width: 100%;
+    height: 900px;
+    padding-bottom: 15px;
+}
+.top{
+    background-color: #DFC96B;
+}
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: black;
+}
+.fila{
+    background-color: #000;
+}
+.fila a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+}
+.fila li{
+    display:inline-block;
+    width:10%;
+    padding:15px 10px;
+    text-align:center;
+    color:#fff;
+}
+.fila li:hover{
+    background-color: #3d3d3d;
+    list-style-type: none;
+}
+.column{
+    background-color: #000;
+    float: left;
+    padding-right: 350px;
+    padding-bottom: 480px;
+    padding-top: -50px;
+}
+.column a{
+    text-decoration:none;
+    color: inherit;
+    font-size: 14px;
+}
+.column li{
+    padding: 20px 1px;
+    text-align:center;
+    color:#fff;
+    list-style-type: none;
+}
+.content {
+    display: inline-block;
+}
+img {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: red;
+    border-width: 2px;
+    width: 390px;
+    margin-top: 100px;
+    margin-right: 150px;
+    padding-left: -100px;
+}
+div p{
+    text-align: center;
+    width: 350px;
+}
+.margen{
+    position: relative;
+    float: right;
+    width: 450px;
+    height: 380px;
+}
+.pie {
+    background-color: lightgray;
+    display: inline-block;
+    float:left;
+    margin-top: 321px;
+    margin-left: -448px;
+    margin-right: auto;
+    padding-left: 840px;
+    padding-right: 840px;
+}
+.pie a{
+    text-decoration:dashed;
+    color: blue;
+}
+.tcol{
+    background-color: #000;
+}
+.tcol:hover{
+    background-color: #3d3d3d;
+    padding-right: 350px;
+    padding-left: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: -350px;
+    margin-left: -45px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+
+}

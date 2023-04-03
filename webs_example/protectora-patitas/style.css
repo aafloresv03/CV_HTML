@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,600&display=swap');
+body{
+    margin: 0px;
+    background-color: #F1F8FF;
+    font-family: 'Montserrat', sans-serif;
+}
+.hd{
+background-color: black;
+height: 411px;
+text-align: center;
+}
+.menu a{
+    background-color: #eaa12a;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    border-top-right-radius: 100px;
+}
+.menu a:hover{
+    background-color: #ebca95;
+}
+.hd img{
+    margin: 0px;
+    padding: 0%;
+}
+.cp{
+    
+}
+.cp img{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    width: 300px;
+    display: inline-block;
+}
+.cp img:hover{
+    border-radius: 0%;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-delay: 1ms;
+    box-shadow: 0px 0px 26px 3px rgba(0,0,0,0.75);
+}
+.tarj{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.nosotros{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    width: 100%;
+}
+.textus{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    width: 50%;
+    text-align: justify;
+    margin-left: 120px;
+}
+.textus h3{
+    font-size: 80px;
+    text-align: start;
+}
+.textus p{
+    font-size: 20px;
+}
+.video video{   
+    width: 900px;
+    margin: 100px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.ft{
+    
+}
